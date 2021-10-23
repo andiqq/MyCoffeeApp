@@ -10,6 +10,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
     <PackageReference Include="Refractored.MvvmHelpers" Version="1.6.2" />
     <PackageReference Include="Xamarin.CommunityToolkit.Markup" Version="1.2.0" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="1.2.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="ViewModels\" />
@@ -18,6 +19,7 @@
     <None Remove="Views\" />
     <None Remove="Refractored.MvvmHelpers" />
     <None Remove="Xamarin.CommunityToolkit.Markup" />
+    <None Remove="Xamarin.CommunityToolkit" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
