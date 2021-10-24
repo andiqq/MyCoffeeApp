@@ -11,6 +11,7 @@
     <PackageReference Include="Refractored.MvvmHelpers" Version="1.6.2" />
     <PackageReference Include="Xamarin.CommunityToolkit.Markup" Version="1.2.0" />
     <PackageReference Include="Xamarin.CommunityToolkit" Version="1.2.0" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="ViewModels\" />
@@ -20,6 +21,8 @@
     <None Remove="Refractored.MvvmHelpers" />
     <None Remove="Xamarin.CommunityToolkit.Markup" />
     <None Remove="Xamarin.CommunityToolkit" />
+    <None Remove="sqlite-net" />
+    <None Remove="sqlite-net-pcl" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
